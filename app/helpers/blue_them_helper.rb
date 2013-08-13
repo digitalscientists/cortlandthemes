@@ -1,0 +1,2 @@
+module BlueThemHelper
+end

@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+1.upto(10) do
+  Apartment.create!([
+    {
+      title: Faker::Company.name,
+      description: Faker::Lorem.sentence(10)
+    }
+  ])
+end
