@@ -15,3 +15,6 @@
 //= require turbolinks
 //= require bootstrap
 //= require libs/holder
+//= require libs/greensock/TweenMax
+//= require libs/greensock/plugins/CSSPlugin
+//= require blue_theme

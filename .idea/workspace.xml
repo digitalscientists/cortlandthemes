@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11746fa2-cc51-4eca-a0db-9f274b264b36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sections/_footer.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_footer.html.slim" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.slim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_nav_bar.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_navigation.html.slim" afterPath="$PROJECT_DIR$/app/views/shared/_navigation.html.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_side_nav.html.slim" afterPath="$PROJECT_DIR$/app/views/shared/_side_nav.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/blue_theme.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/blue_theme.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cortlandthemes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376494746135" ignored="false" />
+    <file path="/Dummy.txt" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376502518775" ignored="false" />
     <file path="/Gemfile" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376417822725" ignored="false" />
-    <file path="/application.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376501498179" ignored="false" />
+    <file path="/application.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376503226234" ignored="false" />
     <file path="/blue_theme_controller.rb" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376417869990" ignored="false" />
     <file path="/white_theme_controller.rb" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376416412395" ignored="false" />
     <file path="/seeds.rb" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376419638292" ignored="false" />
@@ -29,12 +32,12 @@
     <file path="/_base.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376424060393" ignored="false" />
     <file path="/_carousel.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376491220466" ignored="false" />
     <file path="/_side_nav.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376501926862" ignored="false" />
-    <file path="/_navigation.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376487817433" ignored="false" />
+    <file path="/_navigation.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376503119083" ignored="false" />
     <file path="$PROJECT_DIR$/../sourceesb/source/manufacturers_list.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376488118479" ignored="false" />
     <file path="$PROJECT_DIR$/../sourceesb/source/assets/stylesheets/mobile/_mobile_modules.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376488118480" ignored="false" />
     <file path="$PROJECT_DIR$/../sourceesb/source/part_detail.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376488118480" ignored="false" />
     <file path="$PROJECT_DIR$/../sourceesb/source/assets/stylesheets/components/_lightbox_upload_1.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376488209444" ignored="false" />
-    <file path="/_side_nav.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376502452152" ignored="false" />
+    <file path="/_side_nav.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376504666948" ignored="false" />
     <file path="/application.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376489468390" ignored="false" />
     <file path="/_layout_blue.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376493609704" ignored="false" />
     <file path="/_header_nav.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376493826338" ignored="false" />
@@ -43,6 +46,9 @@
     <file path="/_hero.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376494358096" ignored="false" />
     <file path="/_footer.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376501461123" ignored="false" />
     <file path="/_footer.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376502395185" ignored="false" />
+    <file path="/blue_theme.js.coffee" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376504818448" ignored="false" />
+    <file path="/application.js" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376502901551" ignored="false" />
+    <file path="/_nav_bar.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376504964117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_hero.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_hero.html.slim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-3.9285715">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+            <state line="7" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +80,46 @@
       <file leaf-file-name="_side_nav.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3449048">
+            <state line="7" column="25" selection-start="121" selection-end="121" vertical-scroll-proportion="0.1724524">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blue_theme.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/blue_theme.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="31" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TweenMax.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/libs/greensock/TweenMax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1375748108000" expanded="false" signature="84850:84870" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_top_nav.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_nav_bar.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/components/_nav_bar.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,34 +128,7 @@
       <file leaf-file-name="_side_nav.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_side_nav.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/blue_theme/index.html.slim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.slim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.0">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -137,7 +146,16 @@
       <file leaf-file-name="_navigation.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="261" selection-end="409" vertical-scroll-proportion="-6.285714">
+            <state line="19" column="53" selection-start="29" selection-end="600" vertical-scroll-proportion="-14.928572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="18" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,21 +184,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/base/_base.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/shared/_carousel.html.slim" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_top_nav.scss" />
-        <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/components/_nav-toggle.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/layout/_layout_blue.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_header_nav.html.slim" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_hero.html.slim" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/views/blue_theme/index.html.slim" />
         <option value="$PROJECT_DIR$/app/views/shared/_footer.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/sections/_footer.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_side_nav.html.slim" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/sections/_footer.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/blue_theme.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/components/_nav_bar.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss" />
       </list>
     </option>
@@ -631,6 +649,96 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cortlandthemes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cortlandthemes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cortlandthemes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cortlandthemes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greensock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cortlandthemes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cortlandthemes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greensock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1148,7 +1256,11 @@
       <created>1376494749512</created>
       <updated>1376494749512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="styling right nav">
+      <created>1376502522408</created>
+      <updated>1376502522408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1217,7 +1329,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic footer&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling right nav" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1234,49 +1346,15 @@
     <MESSAGE value="Added support files plus the initial layout" />
     <MESSAGE value="Added jumbotron and reduced the amount of db entries to 8" />
     <MESSAGE value="Basic footer&#10;" />
+    <MESSAGE value="styling right nav" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@cortland/bundler/gems/bootstrap-sass-e67ac6d4c0f9/vendor/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="27" selection-start="9041" selection-end="9068" vertical-scroll-proportion="-11.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@cortland/bundler/gems/bootstrap-sass-e67ac6d4c0f9/vendor/assets/stylesheets/bootstrap/_navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="0" selection-start="3544" selection-end="3558" vertical-scroll-proportion="-5.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="274" selection-end="287" vertical-scroll-proportion="-7.857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout/_layout_blue.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_header_nav.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1295,30 +1373,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="261" selection-end="409" vertical-scroll-proportion="-6.285714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blue_theme/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_side_nav.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -1344,9 +1401,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="29" selection-end="600" vertical-scroll-proportion="-14.928572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/libs/greensock/TweenMax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1375748108000" expanded="false" signature="84850:84870" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_side_nav.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/blue_theme.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/components/_nav_bar.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3449048">
+        <state line="7" column="25" selection-start="121" selection-end="121" vertical-scroll-proportion="0.1724524">
           <folding />
         </state>
       </provider>
