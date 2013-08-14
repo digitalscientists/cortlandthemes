@@ -2,8 +2,18 @@
   position: sticky;
   top: 0;
   width: 100%;
+  background-color:#fff;
+  transition:box-shadow 2s;
+  -moz-transition:box-shadow 2s;
+  -webkit-transition:box-shadow 2s;
+  -ms-transition:box-shadow 2s;
+  -o-transition:box-shadow 2s;
+  .navbar{
+    background-color: #fff;
+  }
 }
 .fixed {
   position: fixed;
   z-index: 1000;
+  height: 50px;
 }
