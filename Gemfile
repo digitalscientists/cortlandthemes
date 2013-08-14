@@ -38,6 +38,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'mercury-rails', :git => 'git://github.com/jejacks0n/mercury.git'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -49,3 +51,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'paperclip'

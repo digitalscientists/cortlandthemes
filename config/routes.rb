@@ -1,8 +1,12 @@
 Cortlandthemes::Application.routes.draw do
 
-  get 'apartments' => 'blue_theme#index'
-  get 'apartments/:id' => 'blue_theme#show', as: 'apartment'
+  mount Mercury::Engine => '/'
 
+  namespace :mercury do
+    resources :images
+  end
+  
+  resources :apartments
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

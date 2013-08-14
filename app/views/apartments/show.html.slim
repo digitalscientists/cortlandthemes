@@ -1,0 +1,10 @@
+article
+  header#title data-mercury="full"
+    = @apartment.title
+
+  h2 Description
+
+  #description data-mercury="full"
+    = @apartment.description
+
+  = link_to 'All Movies', apartments_path
