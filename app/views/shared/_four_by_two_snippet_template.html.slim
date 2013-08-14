@@ -1,0 +1,13 @@
+.container
+  /h1
+  /  = pluralize(@apartments.size, 'Apartment')
+
+  .row
+    - for apartment in @apartments do
+      .col-lg-3 style="margin: 10px 0 10px 0"
+        .thumbnail
+          img data-src="holder.js/100%x200" alt=""
+          .caption
+            h3 Thumbnail label
+            p = truncate(apartment.description, length: 40, separator: ' ')
+            p = link_to apartment.title, apartment, class: 'btn btn-primary'
