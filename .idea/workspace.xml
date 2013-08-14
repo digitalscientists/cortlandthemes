@@ -2,49 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11746fa2-cc51-4eca-a0db-9f274b264b36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/AttrPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/BezierPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/CSSPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/CSSRulePlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/ColorPropsPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/DirectionalRotationPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/utils/Draggable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/easing/EasePack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/EaselPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/KineticPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/Physics2DPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/PhysicsPropsPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/RaphaelPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/RoundPropsPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/ScrambleTextPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/ScrollToPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/utils/SplitText.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/TEMPLATE_Plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/TextPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/plugins/ThrowPropsPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/TimelineLite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/TimelineMax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/TweenLite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/TweenMax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_footer.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_four_by_two_snippet_template.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_header_nav.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_side_nav.html.slim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/libs/greensock/jquery.gsap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/shared/_header.html.slim" afterPath="$PROJECT_DIR$/app/views/shared/_navigation.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/base/_base.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/base/_base.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_carousel.html.slim" afterPath="$PROJECT_DIR$/app/views/shared/_carousel.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/layout/_layout_blue.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/layout/_layout_blue.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_hero.html.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/blue_theme/index.html.slim" afterPath="$PROJECT_DIR$/app/views/blue_theme/index.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cortlandthemes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376488249470" ignored="false" />
+    <file path="/Dummy.txt" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376494085772" ignored="false" />
     <file path="/Gemfile" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376417822725" ignored="false" />
     <file path="/application.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376492470738" ignored="false" />
     <file path="/blue_theme_controller.rb" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376417869990" ignored="false" />
@@ -57,7 +22,7 @@
     <file path="/show.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376419383975" ignored="false" />
     <file path="/temp.rb" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376419166362" ignored="false" />
     <file path="/_header.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376426978625" ignored="false" />
-    <file path="/index.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376490879656" ignored="false" />
+    <file path="/index.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376494409485" ignored="false" />
     <file path="/a.dummy" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376423251382" ignored="false" />
     <file path="/_base.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376424060393" ignored="false" />
     <file path="/_carousel.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376491220466" ignored="false" />
@@ -73,6 +38,7 @@
     <file path="/_header_nav.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376493826338" ignored="false" />
     <file path="/_top_nav.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376494035725" ignored="false" />
     <file path="/_nav-toggle.css.scss" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376492522057" ignored="false" />
+    <file path="/_hero.html.slim" changelist="11746fa2-cc51-4eca-a0db-9f274b264b36" time="1376494358096" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,10 +67,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_top_nav.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_top_nav.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.3449048">
+            <state line="14" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_hero.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_hero.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-3.9285715">
               <folding />
             </state>
           </provider>
@@ -122,7 +97,16 @@
       <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blue_theme/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.0">
+            <state line="5" column="12" selection-start="108" selection-end="133" vertical-scroll-proportion="-3.9285715">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="8" selection-start="352" selection-end="352" vertical-scroll-proportion="0.19708847">
               <folding />
             </state>
           </provider>
@@ -155,28 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navbar.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@cortland/bundler/gems/bootstrap-sass-e67ac6d4c0f9/vendor/assets/stylesheets/bootstrap/_navbar.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="0" selection-start="3544" selection-end="3558" vertical-scroll-proportion="-5.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_header_nav.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_header_nav.html.slim">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_side_nav.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,14 +171,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/shared/_header.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/shared/_four_by_two_snippet_template.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sections/_side_nav.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_side_nav.html.slim" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/base/_base.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/blue_theme/index.html.slim" />
         <option value="$PROJECT_DIR$/app/views/shared/_carousel.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_top_nav.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.slim" />
@@ -221,6 +184,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/layout/_layout_blue.css.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_header_nav.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss" />
+        <option value="$PROJECT_DIR$/app/views/shared/_hero.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/blue_theme/index.html.slim" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -1175,12 +1141,18 @@
       <created>1376415841904</created>
       <updated>1376415841904</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added support files plus the initial layout">
+      <created>1376494089743</created>
+      <updated>1376494089743</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="84" width="1684" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33075932" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1195,7 +1167,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33075932" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1243,7 +1214,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added support files plus the initial layout" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1257,18 +1228,12 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Added support files plus the initial layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/base/_base.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_carousel.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="75" selection-start="1209" selection-end="1209" vertical-scroll-proportion="-18.071428">
@@ -1307,13 +1272,6 @@
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p0@cortland/bundler/gems/bootstrap-sass-e67ac6d4c0f9/vendor/assets/stylesheets/bootstrap/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="0" selection-start="3544" selection-end="3558" vertical-scroll-proportion="-5.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/blue_theme/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -1362,7 +1320,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/components/_top_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.3449048">
+        <state line="14" column="16" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_hero.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="-3.9285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/blue_theme/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="108" selection-end="133" vertical-scroll-proportion="-3.9285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="352" selection-end="352" vertical-scroll-proportion="0.19708847">
           <folding />
         </state>
       </provider>

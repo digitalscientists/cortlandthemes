@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-1.upto(10) do
+1.upto(8) do
   Apartment.create!([
     {
       title: Faker::Company.name,
