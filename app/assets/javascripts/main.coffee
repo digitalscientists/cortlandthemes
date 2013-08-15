@@ -8,7 +8,7 @@ $ ->
   then stickyTop = sticky.offsetTop
 
   n = 0
-  $(document).on 'scroll', () ->
+  document.addEventListener 'scroll', () ->
     if window.scrollY >= stickyTop
     then hideRightNavAndStickTopNav()
     else sticky.classList.remove('fixed')

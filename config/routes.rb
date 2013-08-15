@@ -1,5 +1,7 @@
 Cortlandthemes::Application.routes.draw do
 
+  devise_for :users
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
   mount Mercury::Engine => '/'
 
   namespace :mercury do

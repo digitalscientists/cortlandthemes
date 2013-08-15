@@ -1,3 +1,17 @@
-strong= params[:options][:first_name]
-' likes 
-= params[:options][:favorite_beer]
+.col-lg-3 style="margin: 10px 0 10px 0"
+  .thumbnail
+
+    img src="#{params[:options][:image_location]}" data-src="#{params[:options][:image_location]}" alt=""
+
+    .caption
+      h3
+        = params[:options][:first_name]
+      p style="font-size:16px;"
+        = truncate(params[:options][:favorite_beer], length: 40, separator: ' ')
+      p
+        a.btn.btn-primary
+          = params[:options][:button_name]
+
+/strong= params[:options][:first_name]
+/' likes
+/= params[:options][:favorite_beer]

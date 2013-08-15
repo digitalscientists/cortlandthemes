@@ -1,0 +1,63 @@
+/<%= form_for 'options', {url: '', html: {class: 'form-horizontal', style: 'width:615px'}} do |f| %>
+/
+/  <div class="form-inputs mercury-display-pane-container">
+/
+/    <fieldset>
+/      <div class="control-group string optional">
+/        <label class="string optional control-label" for="options_first_name">First Name</label>
+/        <div class="controls">
+/          <input class="span6 string optional" id="options_first_name" name="options[first_name]" size="50" type="text" value="<%= @options[:first_name] %>">
+/        </div>
+/      </div>
+/    </fieldset>
+/
+/    <fieldset>
+/      <legend>Options</legend>
+/      <div class="control-group string optional">
+/        <label class="string optional control-label" for="options_favorite_beer">Favorite Beer</label>
+/        <div class="controls">
+/          <input class="span6 string optional" id="options_favorite_beer" name="options[favorite_beer]" size="50" type="text" value="<%= @options[:favorite_beer] %>">
+/        </div>
+/      </div>
+/    </fieldset>
+/
+/  </div>
+/
+/  <div class="form-actions mercury-display-controls">
+/    <input class="btn btn-primary" name="commit" type="submit" value="Insert Snippet"/>
+/  </div>
+/
+/<% end %>
+= form_for 'options', {url: '', html: {class: 'form-horizontal', style: 'width:615px'}} do |f|
+  .form-inputs.mercury-display-pane-container
+    fieldset
+
+      .control-group.string.optional
+        label.string.optional.control-label for="options_image_location" Image
+        .controls
+          /select
+          /  option value="http://lorempixel.com/400/400/nature/" Image 1
+          /  option value="http://lorempixel.com/400/400/nature/" Image 2
+          /  option value="http://lorempixel.com/400/400/nature/" Image 3
+          /  option value="http://lorempixel.com/400/400/nature/" Image 4
+          input#options_image_location.span6.string.optional name="options[image_location]" size="50" type="text" value=(@options[:image_location])
+
+      .control-group.string.optional
+        label.string.optional.control-label for="options_first_name" Header
+        .controls
+          input#options_first_name.span6.string.optional name="options[first_name]" size="50" type="text" value=(@options[:first_name])
+
+      .control-group.string.optional
+        label.string.optional.control-label for="options_favorite_beer" Supporting Text
+        .controls
+          input#options_favorite_beer.span6.string.optional name="options[favorite_beer]" size="50" type="text" value=(@options[:favorite_beer])
+
+
+      .control-group.string.optional
+        label.string.optional.control-label for="button_name" Button Name
+        .controls
+          input#button_name.span6.string.optional name="options[button_name]" size="50" type="text" value=(@options[:button_name])
+
+  .form-actions.mercury-display-controls
+    input.btn.btn-primary name="commit" type="submit" value="Insert Snippet"
+

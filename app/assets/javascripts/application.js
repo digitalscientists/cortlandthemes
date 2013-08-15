@@ -18,3 +18,4 @@
 //= require libs/greensock/TweenMax
 //= require libs/greensock/plugins/CSSPlugin
 //= require main
+//= require snippet
