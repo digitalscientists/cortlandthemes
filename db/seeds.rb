@@ -14,3 +14,5 @@
     }
   ])
 end
+
+User.create(username: 'admin', admin: 1, email: 'admin@admin.com', password: 'admin123')
