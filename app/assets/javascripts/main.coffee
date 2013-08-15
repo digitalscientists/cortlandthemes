@@ -8,7 +8,7 @@ $ ->
   then stickyTop = sticky.offsetTop
 
   n = 0
-  document.addEventListener 'scroll', () ->
+  $(document).on 'scroll', () ->
     if window.scrollY >= stickyTop
     then hideRightNavAndStickTopNav()
     else sticky.classList.remove('fixed')
@@ -34,7 +34,7 @@ $ ->
     TweenMax.to(sidenav, .2, {width:250})
     TweenMax.to(contentArea, .2, {marginRight: 250})
 
-  themeNav.addEventListener 'click', () ->
+  $(themeNav).on 'click', () ->
     if sidenav.clientWidth > 2
     then closeSideNav()
     else openSideNav()
