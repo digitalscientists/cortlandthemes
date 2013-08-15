@@ -1,12 +1,23 @@
 Cortlandthemes::Application.routes.draw do
+  
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+
+  devise_for :users do
+    get '/login' => 'devise/sessions#new', as: :login
+    get '/logout' => 'devise/sessions#destroy', as: :logout
+  end
 
   mount Mercury::Engine => '/'
+
+  resources :uploads
 
   namespace :mercury do
     resources :images
   end
   
   resources :apartments
+
+  match '/:name' => 'pages#showbyname', :via => :get, :as => :pagebyname  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -62,4 +73,6 @@ Cortlandthemes::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # root :to => "pages#index"
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130814172503) do
+ActiveRecord::Schema.define(version: 20130815032433) do
 
   create_table "apartments", force: true do |t|
     t.string   "title"
@@ -19,6 +19,19 @@ ActiveRecord::Schema.define(version: 20130814172503) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "mercury_history", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "page_id"
+    t.integer  "region_id"
+    t.text     "region_changes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "mercury_history", ["page_id"], name: "index_mercury_history_on_page_id"
+  add_index "mercury_history", ["region_id"], name: "index_mercury_history_on_region_id"
+  add_index "mercury_history", ["user_id"], name: "index_mercury_history_on_user_id"
 
   create_table "mercury_images", force: true do |t|
     t.string   "image_file_name"
@@ -28,5 +41,73 @@ ActiveRecord::Schema.define(version: 20130814172503) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "mercury_pages", force: true do |t|
+    t.string   "name"
+    t.string   "title"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "mercury_pages_regions", id: false, force: true do |t|
+    t.integer "page_id"
+    t.integer "region_id"
+  end
+
+  add_index "mercury_pages_regions", ["page_id"], name: "index_mercury_pages_regions_on_page_id"
+  add_index "mercury_pages_regions", ["region_id"], name: "index_mercury_pages_regions_on_region_id"
+
+  create_table "mercury_regions", force: true do |t|
+    t.string   "region_name"
+    t.string   "region_type"
+    t.text     "attrs"
+    t.text     "snippets"
+    t.text     "value"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "mercury_uploads", force: true do |t|
+    t.string   "upload_file_name"
+    t.string   "upload_content_type"
+    t.integer  "upload_file_size"
+    t.datetime "upload_updated_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "rails_admin_histories", force: true do |t|
+    t.text     "message"
+    t.string   "username"
+    t.integer  "item"
+    t.string   "table"
+    t.integer  "month",      limit: 2
+    t.integer  "year",       limit: 5
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "rails_admin_histories", ["item", "table", "month", "year"], name: "index_rails_admin_histories"
+
+  create_table "users", force: true do |t|
+    t.string   "email",                  default: "",    null: false
+    t.string   "encrypted_password",     default: "",    null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.boolean  "admin",                  default: false
+    t.string   "username"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 
 end
