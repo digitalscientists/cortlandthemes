@@ -8,13 +8,13 @@ This file contains all of the required css for the Mercury interface as well as 
 */
 @font-face {
   font-family: 'mercury';
-  src: url(/assets/mercury/mercury.ttf) format("truetype");
+  src: url(../fonts/mercury.ttf) format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'mercury-toolbars';
-  src: url(/assets/mercury/toolbars.ttf) format("truetype");
+  src: url(/fonts/toolbars.ttf) format("truetype");
   font-weight: normal;
   font-style: normal; }
 
