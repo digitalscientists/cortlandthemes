@@ -17,5 +17,12 @@
 //= require libs/holder
 //= require libs/greensock/TweenMax
 //= require libs/greensock/plugins/CSSPlugin
+//= require libs/mercury/mercury
+//= require libs/mercury/dependencies/marked-0.2.8
+//= require libs/mercury/dependencies/rangy-core
+//= require libs/mercury/dependencies/rangy-cssclassapplier
+//= require libs/mercury/dependencies/rangy-serializer
+//= require_tree ./libs/mercury/regions
+
 //= require main
 //= require snippet

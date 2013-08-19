@@ -9,7 +9,7 @@ gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', git: 'git@github.com:thomas-mcdonald/bootstrap-sass.git', branch: '3'
 
 gem 'faker'
 
@@ -39,7 +39,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'mercury-rails', :git => 'git://github.com/jejacks0n/mercury.git'
+gem 'mercury-rails', :git => 'git@github.com:jejacks0n/mercury-rails.git'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

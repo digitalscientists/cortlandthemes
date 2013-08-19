@@ -1,7 +1,7 @@
 Cortlandthemes::Application.routes.draw do
 
-  devise_for :users
-  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+  #devise_for :users
+  #mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
   mount Mercury::Engine => '/'
 
   namespace :mercury do
@@ -64,4 +64,6 @@ Cortlandthemes::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # root :to => "pages#index"
 end
