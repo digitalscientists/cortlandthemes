@@ -19,6 +19,8 @@ Mercury.registerSnippet 'editable-gables',
     textarea.parent().html(textarea.val())
     Mercury.trigger('reinitialize')                               # tell mercury that we have new regions to initialize.
 
+
+
   toJSON: ->
     $.extend(true, {}, @attributes, {regions: @subRegions()})
 
